@@ -1,0 +1,13 @@
+---
+repositories:
+- name: ingress-nginx
+  url: https://kubernetes.github.io/ingress-nginx
+
+releases:
+- name: nginx
+  chart: ingress-nginx/ingress-nginx
+  namespace: ppr1
+  createNamespace: true
+  missingFileHandler: Warn
+  values:
+    - "values.yaml.gotmpl"
