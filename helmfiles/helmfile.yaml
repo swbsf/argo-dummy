@@ -14,3 +14,11 @@ releases:
   missingFileHandler: Warn
   values:
     - "values.yaml.gotmpl"
+- name: nginx
+  chart: ../charts/test
+  namespace: steven
+  createNamespace: true
+  missingFileHandler: Warn
+  values:
+    - "values.yaml.gotmpl"
+
