@@ -2,4 +2,4 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: steven
-  namespace: steven
+  namespace: ppr1

@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: argocd
     name: in-cluster
-  project: default
+  project: steven
   source:
     repoURL: https://github.com/swbsf/argo-dummy.git
     targetRevision: main
