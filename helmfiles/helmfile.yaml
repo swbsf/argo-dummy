@@ -1,3 +1,6 @@
+environments:
+  dev:
+
 ---
 repositories:
 - name: ingress-nginx
