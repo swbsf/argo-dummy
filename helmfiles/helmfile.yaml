@@ -7,13 +7,13 @@ repositories:
   url: https://kubernetes.github.io/ingress-nginx
 
 releases:
-- name: nginxsteven
-  chart: ingress-nginx/ingress-nginx
-  namespace: ppr1
-  createNamespace: true
-  missingFileHandler: Warn
-  values:
-    - "values.yaml.gotmpl"
+#- name: nginxsteven
+#  chart: ingress-nginx/ingress-nginx
+#  namespace: ppr1
+#  createNamespace: true
+#  missingFileHandler: Warn
+#  values:
+#    - "values.yaml.gotmpl"
 - name: nginx
   chart: ../charts/test
   namespace: steven
