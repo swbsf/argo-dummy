@@ -3,13 +3,6 @@ kind: Role
 metadata:
   name: steven
 rules:
-- apiGroups:
-  - '*'
-  resources:
-  - '*'
-  verbs:
-  - '*'
-- nonResourceURLs:
-  - '*'
-  verbs:
-  - '*'
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]
