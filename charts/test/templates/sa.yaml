@@ -2,4 +2,4 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: steven
-  namespace: lasuite-ppr1
+  namespace: ppr1
